@@ -68,7 +68,6 @@ for (let i = 0; i < squadre.length;i++) {
     // Infine usando la destrutturazione creiamo un nuovo array i cui elementi sono sempre degli oggetti che contengono solo nomi e falli subiti. Stampiamo tutto in console.
     const {nomeS,falli} = squadre[i];
     newSquadre.push({nomeS,falli});
-    console.log(newSquadre[i]);
+    console.log(`Squadra : ${nomeS}    Falli subiti : ${falli}`);
 }
-
 
